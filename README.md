@@ -40,6 +40,7 @@ N/A
 
 - [Github banner generator](https://leviarista.github.io/github-profile-header-generator/)
 - [Github markdown-badges](https://ileriayo.github.io/markdown-badges/)
+- [OpenAI](https://chat.openai.com)
 
 ## Contributing
 

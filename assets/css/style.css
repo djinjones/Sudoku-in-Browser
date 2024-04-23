@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+}
+
+.board {
+    display: inline-block;
+    border: 2px solid #333;
+    margin: 20px;
+}
+
+.cell {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.cell:nth-child(3n) {
+    border-right: 2px solid #333;
+}
+
+.cell:nth-child(9n) {
+    border-right: none;
+}
+
+.cell:nth-child(n+19) {
+    border-bottom: 2px solid #333;
+}
+
+.cell:nth-child(n+55) {
+    border-bottom: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cell.incorrect {
+    color: red;
+}
